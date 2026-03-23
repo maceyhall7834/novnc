@@ -1,4 +1,4 @@
-FROM ghcr.io/maceyhall7834/limited-machine
+FROM ghcr.io/maceyhall7834/limited-machine:main
 EXPOSE 10000
 ENV RESOLUTION=1280x720
 CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
